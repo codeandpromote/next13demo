@@ -105,7 +105,7 @@ export default function Home() {
                 "text-neutral-300": currentFramework === "open",
               })}
             >
-              Code & Promote
+              Code & Promote<br></br>
             </span>{" "}
             Coming Soon!
           </h1>
