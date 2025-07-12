@@ -91,7 +91,7 @@ export default function Home() {
               width="70"
               height="90"
             />
-            + <FrameworkRotation currentFramework={currentFramework} /> {" "}
+            + <FrameworkRotation currentFramework={currentFramework} />{" "}
             <span
               className={cn("transition-colors duration-200", {
                 "text-purple-300": currentFramework === "qwik",
@@ -105,15 +105,13 @@ export default function Home() {
                 "text-neutral-300": currentFramework === "open",
               })}
             >
-              Desktop
+              Code & Promote
             </span>{" "}
             Coming Soon!
           </h1>
           {/* Sub heading */}
           <p className="mb-4 mt-20">
-            <span className="text-gray-300">
-              Product is Under development{" "}
-            </span>
+            <span className="text-gray-300">Product is Under development </span>
             <Image
               alt="omnibot logo"
               className="inline-block ml-1 -mt-1"
